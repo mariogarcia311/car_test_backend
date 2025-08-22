@@ -31,3 +31,29 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Environment and Configuration Files ###
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Application properties with sensitive data
+src/main/resources/application-prod.properties
+src/main/resources/application-staging.properties
+src/main/resources/application-local.properties
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
